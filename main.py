@@ -9,7 +9,7 @@ class notepad(tk.Tk):
         self.title("NOTE PAD")
 
         #text widget
-        self.text=tk.Text(self,wrap="word")
+        self.text=tk.Text(self,wrap="word",bg="black",fg="white")
         self.text.pack(side="top",fill="both",expand=True)
 
         #creating menu bar
